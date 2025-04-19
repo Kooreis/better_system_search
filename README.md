@@ -5,21 +5,21 @@ Personal utility to avoid the nuances of customizing indexing settings on window
 A: This Python script provides an alternative way to search for files across local directories. Windows search can often be slow on bloated systems, without extensive customization on older machines. When the soal goal is finding files by one relevant parameter, this script can improve speeds by over 80%. Presently, it only support file name- as for what I often need it for, I only need file name. (Finding and altering all relevant files when assiting individuals in fixing broken js configuration files.)
 
 </details> <details> <summary><strong>Q: Why not just enable indexing on Windows?</strong></summary>
-A: Windows Search indexing can...
+A: Windows Search indexing can...<br/>
 1. Aggressively slow down performance on large or external drives<br/>
-2. Requires administrative privileges to configure comprehensively
-3. Fails to index network paths or uncommon file formats reliably
-4. Can return outdated results due to stale indices
+2. Requires administrative privileges to configure comprehensively<br/>
+3. Fails to index network paths or uncommon file formats reliably<br/>
+4. Can return outdated results due to stale indices<br/>
  
 This script bypasses those issues by directly scanning the file system in real time, with no dependency on OS-level indexing. Its lightweight, quick to run and allows quick filtering to file paths. 
 Additionally, you're not always using YOUR OWN system. Making perm-changes on a client's system is bad. When all you need is simple indexing, this is the better option.
 </details>
 ⚙️ Configuration & Usage
 <details> <summary><strong>Q: How do I customize what files to search?</strong></summary>
-A: Presently right now there is only filtering by file name, and directory. There are plans to add;
-1. CLI arguments (e.g., --ext .log --min-size 100KB)
-2. A JSON config file (e.g., search_config.json)
-3. Environment variables, if integrating into larger systems
+A: Presently right now there is only filtering by file name, and directory. There are plans to add;<br/>
+1. CLI arguments (e.g., --ext .log --min-size 100KB)<br/>
+2. A JSON config file (e.g., search_config.json)<br/>
+3. Environment variables, if integrating into larger systems<br/>
 
 ..but presently, I am working on other ventures. Feel free to submit other suggestions!
 
