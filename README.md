@@ -6,7 +6,7 @@ A: This Python script provides an alternative way to search for files across loc
 
 </details> <details> <summary><strong>Q: Why not just enable indexing on Windows?</strong></summary>
 A: Windows Search indexing can...
-1. Aggressively slow down performance on large or external drives
+1. Aggressively slow down performance on large or external drives<br/>
 2. Requires administrative privileges to configure comprehensively
 3. Fails to index network paths or uncommon file formats reliably
 4. Can return outdated results due to stale indices
